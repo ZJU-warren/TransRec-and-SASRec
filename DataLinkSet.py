@@ -1,8 +1,9 @@
 import os
 import time
 
-# dataSetChoice = 'Automotive'                        # 所选用的数据集合
-dataSetChoice = 'MovieLens-1M'                        # 所选用的数据集合
+# dataSetChoice = 'Automotive'                          # 所选用的数据集合
+# dataSetChoice = 'MovieLens-1M'                        # 所选用的数据集合
+dataSetChoice = 'Amazon'                                # 所选用的数据集合
 
 """ 文件夹地址 """
 DataSetLink = '../../DataSet'                       # 数据仓库总地址
@@ -11,7 +12,7 @@ OrgSetLink = DataSetLink + '/OrgSet'                # 原始数据仓库地址
 CleanSetLink = DataSetLink + '/CleanSet'            # 清洗数据仓库地址
 ModelSetLink = DataSetLink + '/ModelSet'
 
-""" ---------------------------------- 原始数据仓库 ------------------------------------ """
+""" ---------------------------------- 生数据仓库 ------------------------------------ """
 # ------------- 相关常数 --------------
 # 选择时间左界
 STR_TIME_LIMIT = '2014-1-1'                                                 # 选择左界时间
@@ -20,8 +21,9 @@ ITEM_TIME_LIMIT = 5                                                         # �
 USER_TIME_LIMIT = 10                                                        # 保留至少出现 userTimeLimit
 
 # ------------- 相关文件 --------------
-strTemp = 'item_dedup'
-rawRatings_link = RawSetLink + '/ratings_%s.csv' % strTemp
+strTemp = 'Google'
+# rawRatings_link = RawSetLink + '/ratings_%s.csv' % strTemp
+rawRatings_link = RawSetLink + '/reviews.clean.json.gz'
 rawRatings_Sample_link = RawSetLink + '/rawRatings_Sample_%s_After_%s' % (strTemp, STR_TIME_LIMIT)      # 按照时间划分
 filter_item_link = RawSetLink + '/filter_item_%s_After_%s' % (strTemp, STR_TIME_LIMIT)                  # 过滤掉低频物品
 filter_user_link = RawSetLink + '/filter_user_%s_After_%s' % (strTemp, STR_TIME_LIMIT)                  # 过滤掉低频用户
@@ -33,7 +35,8 @@ KCore_link = RawSetLink + '/KCore_%s_%s_After_%s' % ('%d', strTemp, STR_TIME_LIM
 """ ---------------------------------- 原始数据仓库 ------------------------------------ """
 # 原始数据
 # orgData_reviews_link = OrgSetLink + '/reviews_%s.json.gz' % dataSetChoice         # 原始数据(review)
-orgData_reviews_link = OrgSetLink + '/ratings.dat'
+# orgData_reviews_link = OrgSetLink + '/ratings.dat'
+orgData_reviews_link = OrgSetLink + '/Amazon'
 orgData_reviewsParse_link = OrgSetLink + '/reviewsParse_%s' % dataSetChoice         # 解析后的原始数据(review)
 orgData_meta_link = OrgSetLink + '/meta_%s.json.gz' % dataSetChoice                 # 原始数据(metadata)
 

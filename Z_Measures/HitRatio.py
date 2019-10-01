@@ -36,7 +36,7 @@ def Measure(model, UT, UV, UJ, count_item, limit=50, subN=200):
     uC = 0
     for user in UJ:
         uC += 1
-        print("-------- %d/%d user --------" % (uC, len(UJ)))
+        # print("-------- %d/%d user --------" % (uC, len(UJ)))
         if len(UT[user]) < 2 or len(UJ[user]) == 0:
             continue
 
@@ -71,7 +71,7 @@ def Measure(model, UT, UV, UJ, count_item, limit=50, subN=200):
         hrAgent_T.Update(UT[user][-1], subPSet_T)
         hrAgent_V.Update(UV[user][1], subPSet_V)
         hrAgent_J.Update(UJ[user][1], subPSet_J)
-        print(hrAgent_J.GetHR())
+        # print(hrAgent_J.GetHR())
     return hrAgent_T.GetHR(), hrAgent_V.GetHR(), hrAgent_J.GetHR()
 
 

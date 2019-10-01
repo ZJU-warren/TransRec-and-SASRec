@@ -124,10 +124,10 @@ def Main():
     UT, UV, UJ, count_user, count_item = GetData()
     # 计算后代和关系数目
     itemSuccessor, numRel = Gen_ItemSuccessor(UT, count_item)
-    model = TransRec(UT, UV, UJ, count_user, count_item, numRel)
-    model.Train()
+    # model = TransRec(UT, UV, UJ, count_user, count_item, numRel)
+    # model.Train()
 
-    StoreObj(model, DLSet.model_link % 'TransRec')
+    # StoreObj(model, DLSet.model_link % 'TransRec')
     model = LoadObj(DLSet.model_link % 'TransRec')
 
     auc_T, auc_V, aucJ = AUC.Measure(model, UT, UV, UJ, count_item)

@@ -1,5 +1,5 @@
 import sys ;sys.path.append('../')
-import A_PreProcessing.A_Gen_UISet_Amazon as AA
+import A_PreProcessing.A_Gen_UISet_AmazonRating as AA
 import DataLinkSet as DLSet
 from tools import *
 

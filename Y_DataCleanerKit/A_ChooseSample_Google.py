@@ -2,8 +2,17 @@ import sys ;sys.path.append('../')
 import DataLinkSet as DLSet
 import pandas as pd
 import time
+import gzip
+import datetime
 
 orgHeader = ['userID', 'itemID', 'score', 'timeStamp']
+
+
+# 数据处理器
+def Parse(path):
+    g = gzip.open(path, 'r')
+    for l in g:
+        yield eval(l)
 
 
 # 加载数据
@@ -18,17 +27,24 @@ def SampleByTime(dataLink, storeLink, timeLimit):
     with open(storeLink, 'w') as f:
         f.truncate()
 
-    # 分块读取
-    batch = 1
-    for df in pd.read_csv(open(dataLink, 'r'), chunksize=100000, header=None, names=orgHeader):
-        print('Processing the %d batch' % batch)
-        try:
-            df[df['timeStamp'] >= timeLimit].to_csv(open(storeLink, 'a'), index=None, header=None)
-            batch += 1
-        except StopIteration:
-            print("Iteration is stopped.")
-            break
+    maxT = -1
+    minT = 99999999999999
+    with open(storeLink, 'w') as f:
+        for each in Parse(dataLink):
+            if 'unixReviewTime' in each and each['unixReviewTime'] is not None:
+                if each['unixReviewTime'] >= timeLimit:
+                    # 存储记录
+                    f.write(",".join([str(each['gPlusUserId']), str(each['gPlusPlaceId']),
+                                      str(each['rating']), str(each['unixReviewTime'])]) + '\n')
 
+                    # print(each['unixReviewTime'])
+                    maxT = max(maxT, each['unixReviewTime'])
+                    minT = min(minT, each['unixReviewTime'])
+
+    dt1 = datetime.datetime.fromtimestamp(maxT)
+    dt2 = datetime.datetime.fromtimestamp(minT)
+    print(dt1.strftime("%Y--%m--%d %H:%M:%S"))
+    print(dt2.strftime("%Y--%m--%d %H:%M:%S"))
     print('****** End: SampleByTime ******')
 
 
@@ -42,7 +58,7 @@ def GenKeyIDTimeTable(dataLink, storeLink, keyWord):
     # 分块读取
     batch = 1
     for df in pd.read_csv(open(dataLink, 'r'), chunksize=100000, header=None, names=orgHeader):
-        print('Processing the %d batch' % batch)
+        # print('Processing the %d batch' % batch)
         try:
             df[[keyWord]].to_csv(open(storeLink, 'a'), index=None, header=None)
             batch += 1
@@ -74,7 +90,7 @@ def Filter(dataLink, storeLink, keyWord, threshold):
     totalShape = 0
     batch = 1
     for df in pd.read_csv(open(dataLink, 'r'), chunksize=100000, header=None, names=orgHeader):
-        print('Processing the %d batch' % batch)
+        # print('Processing the %d batch' % batch)
         try:
             df = pd.merge(df, dfCount, on=[keyWord])
             df.to_csv(open(storeLink, 'a'), index=None, header=None)
@@ -85,7 +101,7 @@ def Filter(dataLink, storeLink, keyWord, threshold):
             print("Iteration is stopped.")
             break
 
-    print('Left %d %ss and %d ratings' % (dfCount.shape[0], keyWord, totalShape))
+    # print('Left %d %ss and %d ratings' % (dfCount.shape[0], keyWord, totalShape))
 
     print('****** End: Filter ******')
 
@@ -112,7 +128,7 @@ def GenKCore(dataLink, storeLink, K):
 
     df.to_csv(storeLink, header=None, index=False)
 
-    print('ratings : %d' % df.shape[0])
+    # print('ratings : %d' % df.shape[0])
     print('****** End: GenKCore ******')
 
 
@@ -139,7 +155,7 @@ def GenSample(dataLink, storeLink, keyWord, frac):
             print("Iteration is stopped.")
             break
 
-    print('Left %d %ss and %d ratings' % (dfU.shape[0], keyWord, totalShape))
+    # print('Left %d %ss and %d ratings' % (dfU.shape[0], keyWord, totalShape))
 
 
 # 统计每个维度id数目
@@ -158,29 +174,38 @@ def Main():
     # 按时间抽取数据
     print('------------------- 按时间抽取数据 --------------------')
     # SampleByTime(DLSet.rawRatings_link, DLSet.rawRatings_Sample_link, DLSet.TIME_LIMIT)
+    GiveMeTheNumber(DLSet.rawRatings_Sample_link)
     # 处理出现次数低于阈值的物品
     print('------------------- 处理出现次数低于阈值的物品 --------------------')
-    # Filter(DLSet.rawRatings_Sample_link, DLSet.filter_item_link, 'itemID', DLSet.LIMIT_EXIST_TIMES)
+    Filter(DLSet.rawRatings_Sample_link, DLSet.filter_item_link, 'itemID', DLSet.LIMIT_EXIST_TIMES)
 
     # 处理出现次数低于阈值的用户
     print('------------------- 处理出现次数低于阈值的用户 --------------------')
-    # Filter(DLSet.filter_item_link, DLSet.filter_user_link, 'userID', DLSet.USER_TIME_LIMIT)
+    Filter(DLSet.filter_item_link, DLSet.filter_user_link, 'userID', DLSet.USER_TIME_LIMIT)
+    GiveMeTheNumber(DLSet.filter_user_link)
 
     print('------------------- 取样 --------------------')
-    # frac = 0.3
-    # GenSample(DLSet.filter_user_link, DLSet.sample_afterFilter_link % str(frac), 'userID', frac)
-    # GiveMeTheNumber(DLSet.sample_afterFilter_link % str(frac))
-
-
+    frac = 0.3
+    GenSample(DLSet.filter_user_link, DLSet.sample_afterFilter_link % str(frac), 'userID', frac)
+    GiveMeTheNumber(DLSet.sample_afterFilter_link % str(frac))
 
     # K-Core
     print('------------------- K-core --------------------')
-    # K = 20
-    # GenKCore(DLSet.filter_user_link, DLSet.KCore_link % K, K)
-    
-    # K = 10
-    # GenKCore(DLSet.filter_user_link, DLSet.KCore_link % K, K)
+    K = 20
+    GenKCore(DLSet.filter_user_link, DLSet.KCore_link % K, K)
+    GiveMeTheNumber(DLSet.KCore_link % K)
+
+    K = 10
+    GenKCore(DLSet.filter_user_link, DLSet.KCore_link % K, K)
+    GiveMeTheNumber(DLSet.KCore_link % K)
 
 
 if __name__ == '__main__':
     Main()
+
+
+
+####
+#### 2014--03--29 16:39:20
+#### 1990--12--31 08:00:00
+####
