@@ -3,7 +3,6 @@ import A_PreProcessing.B_Gen_RelItemSet as AB
 import B_DataPartition.A_DataSplit as BA
 import C_ModelTrain.TransRec as TransRec
 import DataLinkSet as DLSet
-import Redirection as RD
 import sys
 import os
 
