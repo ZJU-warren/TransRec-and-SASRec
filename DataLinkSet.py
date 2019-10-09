@@ -16,14 +16,16 @@ ModelSetLink = DataSetLink + '/ModelSet'
 # ------------- 相关常数 --------------
 # 选择时间左界
 STR_TIME_LIMIT = '2014-1-1'                                                 # 选择左界时间
+# STR_TIME_LIMIT = '2000-1-1'                                                 # 选择左界时间
 TIME_LIMIT = int(time.mktime(time.strptime(STR_TIME_LIMIT, "%Y-%m-%d")))    # 对应时间戳
 ITEM_TIME_LIMIT = 5                                                         # 保留至少出现 itemTimeLimit
 USER_TIME_LIMIT = 10                                                        # 保留至少出现 userTimeLimit
 
 # ------------- 相关文件 --------------
-strTemp = 'Google'
+strTemp = 'MovieLens-1M'
 # rawRatings_link = RawSetLink + '/ratings_%s.csv' % strTemp
-rawRatings_link = RawSetLink + '/reviews.clean.json.gz'
+# rawRatings_link = RawSetLink + '/reviews.clean.json.gz'
+rawRatings_link = RawSetLink + '/ml-1m.dat'
 rawRatings_Sample_link = RawSetLink + '/rawRatings_Sample_%s_After_%s' % (strTemp, STR_TIME_LIMIT)      # 按照时间划分
 filter_item_link = RawSetLink + '/filter_item_%s_After_%s' % (strTemp, STR_TIME_LIMIT)                  # 过滤掉低频物品
 filter_user_link = RawSetLink + '/filter_user_%s_After_%s' % (strTemp, STR_TIME_LIMIT)                  # 过滤掉低频用户

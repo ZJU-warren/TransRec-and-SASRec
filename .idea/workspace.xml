@@ -5,18 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18b2ba39-b468-4457-af0e-f3365eb284da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Learn_TensorFlow/C2_tfBasic/nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Learn_TensorFlow/C2_tfBasic/x_03.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Learn_TensorFlow/firstTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT/.idea/PAT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PAT/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../PathTest/Others/test2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../PathTest/Others/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet_AmazonRating.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Google.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet_Amazon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet_MoiveLens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B_DataPartition/A_DataSplit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_ModelTrain/SuccRec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_ModelTrain/Z_AppendixTool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_MovieLens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/AUC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/HitRatio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/NDCG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataLinkSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataLinkSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Z_Measures/HitRatio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Z_Measures/HitRatio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +47,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Google.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="160" column="12" lean-forward="true" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
-                <element signature="e#182#244#0" />
-                <element signature="e#197#245#0" />
+                <element signature="e#942#1739#0" />
+                <element signature="e#1192#1439#0" />
                 <element signature="e#1258#1348#0" />
                 <element signature="e#1391#1439#0" />
+                <element signature="e#1812#2691#0" />
+                <element signature="e#2240#2568#0" />
                 <element signature="e#2306#2477#0" />
                 <element signature="e#2520#2568#0" />
                 <element signature="e#2747#3513#0" />
@@ -45,6 +67,7 @@
                 <element signature="e#3905#4229#0" />
                 <element signature="e#3971#4138#0" />
                 <element signature="e#4181#4229#0" />
+                <element signature="e#4359#4697#0" />
                 <element signature="e#4561#4697#0" />
                 <element signature="e#4593#4697#0" />
               </folding>
@@ -52,20 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="315">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -131,9 +145,10 @@
         <option value="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" />
         <option value="$PROJECT_DIR$/C_ModelTrain/TransRec.py" />
         <option value="$PROJECT_DIR$/Z_Measures/HitRatio.py" />
-        <option value="$PROJECT_DIR$/DataLinkSet.py" />
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Google.py" />
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" />
+        <option value="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_MovieLens.py" />
+        <option value="$PROJECT_DIR$/DataLinkSet.py" />
       </list>
     </option>
   </component>
@@ -161,11 +176,6 @@
             <path>
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="A_PreProcessing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="Y_DataCleanerKit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -183,17 +193,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Y_DataCleanerKit" />
+      <recent name="$PROJECT_DIR$/A_PreProcessing" />
+      <recent name="$PROJECT_DIR$/Z_Measures" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Z_Measures" />
       <recent name="$PROJECT_DIR$/C_ModelTrain" />
       <recent name="$PROJECT_DIR$/A_PreProcessing" />
       <recent name="$PROJECT_DIR$/A_DataPreProcessing1" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Y_DataCleanerKit" />
-      <recent name="$PROJECT_DIR$/A_PreProcessing" />
-      <recent name="$PROJECT_DIR$/Z_Measures" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -208,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.A_ChooseSample_Google">
+  <component name="RunManager" selected="Python.A_ChooseSample_MovieLens">
     <configuration name="A_ChooseSample_Amazon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,7 +263,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="A_DataSplit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="A_ChooseSample_MovieLens" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,12 +271,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B_DataPartition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Y_DataCleanerKit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_DataPartition/A_DataSplit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_MovieLens.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,7 +285,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B_Gen_RelItemSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DataLinkSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,12 +293,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_PreProcessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataLinkSet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,11 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.A_ChooseSample_Google" />
+        <item itemvalue="Python.A_ChooseSample_MovieLens" />
         <item itemvalue="Python.A_ChooseSample_Amazon" />
+        <item itemvalue="Python.DataLinkSet" />
+        <item itemvalue="Python.A_ChooseSample_Google" />
         <item itemvalue="Python.TransRec" />
-        <item itemvalue="Python.A_DataSplit" />
-        <item itemvalue="Python.B_Gen_RelItemSet" />
       </list>
     </recent_temporary>
   </component>
@@ -349,11 +359,16 @@
       <workItem from="1569633268373" duration="18577000" />
       <workItem from="1569742956548" duration="3831000" />
       <workItem from="1569915904516" duration="3927000" />
+      <workItem from="1569923196728" duration="268000" />
+      <workItem from="1570506259090" duration="727000" />
+      <workItem from="1570512611865" duration="2256000" />
+      <workItem from="1570595142893" duration="266000" />
+      <workItem from="1570595440532" duration="999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85263000" />
+    <option name="totallyTimeSpent" value="89779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,12 +382,37 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16214721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16546762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.075593956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2526998" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.10907128" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.4488102" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16712783" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27321815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,31 +430,6 @@
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.160487" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3488121" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.7257019" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32937366" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.4488102" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,10 +437,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project$B_Gen_RelItemSet.coverage" NAME="B_Gen_RelItemSet Coverage Results" MODIFIED="1569743550567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
+    <SUITE FILE_PATH="coverage/Project$A_ChooseSample_MovieLens.coverage" NAME="A_ChooseSample_MovieLens Coverage Results" MODIFIED="1570513812102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
     <SUITE FILE_PATH="coverage/Project$NDCG.coverage" NAME="NDCG Coverage Results" MODIFIED="1569575070967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_Measures" />
     <SUITE FILE_PATH="coverage/Project$Measures.coverage" NAME="Measures Coverage Results" MODIFIED="1569565440188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_ModelTrain" />
     <SUITE FILE_PATH="coverage/Project$SuccRec.coverage" NAME="SuccRec Coverage Results" MODIFIED="1569585253993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_ModelTrain" />
-    <SUITE FILE_PATH="coverage/Project$DataLinkSet.coverage" NAME="DataLinkSet Coverage Results" MODIFIED="1569390938092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project$DataLinkSet.coverage" NAME="DataLinkSet Coverage Results" MODIFIED="1570513236896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project$A_Gen_UISet_AmazonRating.coverage" NAME="A_Gen_UISet_AmazonRating Coverage Results" MODIFIED="1569743484290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
     <SUITE FILE_PATH="coverage/Project$A_Gen_UISet_MoiveLens.coverage" NAME="A_Gen_UISet_MoiveLens Coverage Results" MODIFIED="1569635966625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
     <SUITE FILE_PATH="coverage/Project$A_DataSplit.coverage" NAME="A_DataSplit Coverage Results" MODIFIED="1569743566782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_DataPartition" />
@@ -433,7 +449,7 @@
     <SUITE FILE_PATH="coverage/Project$A_Gen_UISet.coverage" NAME="A_Gen_UISet Coverage Results" MODIFIED="1569584204856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
     <SUITE FILE_PATH="coverage/Project$TransRec.coverage" NAME="TransRec Coverage Results" MODIFIED="1569743574951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_ModelTrain" />
     <SUITE FILE_PATH="coverage/Project$B_Gen_RelItemSet__1_.coverage" NAME="B_Gen_RelItemSet (1) Coverage Results" MODIFIED="1569507515793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
-    <SUITE FILE_PATH="coverage/Project$A_ChooseSample_Amazon.coverage" NAME="A_ChooseSample_Amazon Coverage Results" MODIFIED="1569754080435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
+    <SUITE FILE_PATH="coverage/Project$A_ChooseSample_Amazon.coverage" NAME="A_ChooseSample_Amazon Coverage Results" MODIFIED="1570513440740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
     <SUITE FILE_PATH="coverage/Project$preProcess_tools.coverage" NAME="preProcess_tools Coverage Results" MODIFIED="1569406649772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_DataPreProcessing" />
     <SUITE FILE_PATH="coverage/Project$HitRatio.coverage" NAME="HitRatio Coverage Results" MODIFIED="1569585194465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_Measures" />
   </component>
@@ -575,39 +591,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py">
+    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Google.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="3360">
+          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
+    <entry file="file://$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="567">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_MovieLens.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Google.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="160" column="12" lean-forward="true" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <element signature="e#182#244#0" />
-            <element signature="e#197#245#0" />
+            <element signature="e#942#1739#0" />
+            <element signature="e#1192#1439#0" />
             <element signature="e#1258#1348#0" />
             <element signature="e#1391#1439#0" />
+            <element signature="e#1812#2691#0" />
+            <element signature="e#2240#2568#0" />
             <element signature="e#2306#2477#0" />
             <element signature="e#2520#2568#0" />
             <element signature="e#2747#3513#0" />
@@ -616,8 +631,19 @@
             <element signature="e#3905#4229#0" />
             <element signature="e#3971#4138#0" />
             <element signature="e#4181#4229#0" />
+            <element signature="e#4359#4697#0" />
             <element signature="e#4561#4697#0" />
             <element signature="e#4593#4697#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
