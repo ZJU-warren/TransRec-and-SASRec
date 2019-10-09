@@ -131,10 +131,10 @@ def Main():
     model = LoadObj(DLSet.model_link % 'TransRec')
 
     auc_T, auc_V, auc_J = AUC.Measure(model, UT, UV, UJ, count_item)    ;print('AUC:', auc_J)
-    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('HR@50:', hr_J)
-    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('HR@10:', hr_J)
-    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('NDCG@50:', ndcg_J)
-    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('NDCG@10:', ndcg_J)
+    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('HR@50', hr_J)
+    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('HR@10', hr_J)
+    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('NDCG@50', ndcg_J)
+    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('NDCG@10', ndcg_J)
 
 
 if __name__ == '__main__':

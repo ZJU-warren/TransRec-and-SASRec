@@ -2,7 +2,7 @@ import os
 import time
 
 dataSet = ['Amazon', 'Google', 'MovieLens', 'YooChoose', 'LastFM']
-dataSetChoice = dataSet[2]                          # 所选用的数据集合
+dataSetChoice = dataSet[4]                          # 所选用的数据集合
 
 """ 文件夹地址 """
 DataSetLink = '../DataSet'                          # 数据仓库总地址

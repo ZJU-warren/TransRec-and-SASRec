@@ -33,7 +33,7 @@ def Split_TVJ(uA):
             user_V[user] = []
             user_J[user] = []
         else:
-            user_T[user] = uA[user][:-2]        # 去除最后2个
+            user_T[user] = uA[user][:-2]      # 去除最后2个
             user_V[user] = uA[user][-3:-1]    # 用最新第3个和第2个为V集
             user_J[user] = uA[user][-2:]      # 最新2个为测试集合
 
