@@ -16,7 +16,8 @@ class MyAUC:
         self.aucSum += sumScore / len(negPSet)
 
     def GetAUC(self):
-        return self.aucSum / self.totalN
+        res = self.aucSum / self.totalN
+        return res
 
 
 # 指标评估

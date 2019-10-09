@@ -1,8 +1,7 @@
 import sys ;sys.path.append('../')
-import A_PreProcessing.A_Gen_UISet_AmazonRating as AA
+import A_PreProcessing.A_Gen_UISet as AA
 import DataLinkSet as DLSet
 from tools import *
-
 
 
 # 整合出物品的相关属性
@@ -46,7 +45,7 @@ def GenRelItemSet(itemMapSet):
 def Main():
     count_U, count_I = AA.Handle()
     userMapSet, itemMapSet, userAction, count_user, count_item = AA.Fliter(count_U, count_I)
-    # IIG = GenRelItemSet(itemMapSet)
+    # IIG = GenRelItemSet(itemMapSet)       # 如果需要相关数据
     IIG = {}
     genDataSet = [userAction, IIG, userMapSet, itemMapSet, count_user, count_item]
     np.save(DLSet.mainData_link, genDataSet)

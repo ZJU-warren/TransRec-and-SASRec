@@ -1,16 +1,45 @@
 import os
 import time
 
-# dataSetChoice = 'Automotive'                          # 所选用的数据集合
-# dataSetChoice = 'MovieLens-1M'                        # 所选用的数据集合
-dataSetChoice = 'Amazon'                                # 所选用的数据集合
+dataSet = ['Amazon', 'Google', 'MovieLens', 'YooChoose', 'LastFM']
+dataSetChoice = dataSet[1]                          # 所选用的数据集合
 
 """ 文件夹地址 """
-DataSetLink = '../../DataSet'                       # 数据仓库总地址
+DataSetLink = '../DataSet'                          # 数据仓库总地址
+# DataSetLink = '../../DataSet'                     # 数据仓库总地址
 RawSetLink = DataSetLink + '/RawSet'                # 原生数据仓库地址
 OrgSetLink = DataSetLink + '/OrgSet'                # 原始数据仓库地址
 CleanSetLink = DataSetLink + '/CleanSet'            # 清洗数据仓库地址
 ModelSetLink = DataSetLink + '/ModelSet'
+
+""" ---------------------------------- 原始数据仓库 ------------------------------------ """
+# 原始数据
+orgData_reviews_link = RawSetLink + '/Raw_' + dataSetChoice                         # 原始数据(review)
+orgData_reviewsParse_link = OrgSetLink + '/reviewsParse_%s' % dataSetChoice         # 解析后的原始数据(review)
+orgData_meta_link = OrgSetLink + '/meta_%s.json.gz' % dataSetChoice                 # 原始数据(metadata)
+
+""" ---------------------------------- 清洗数据仓库 ------------------------------------ """
+# 生成后的数据 [userAction, IIG, userMapSet, itemMapSet, count_user, count_item]
+mainData_link = CleanSetLink + '/mainData_%s.npy' % dataSetChoice
+TVJ_link = CleanSetLink + '/TVJ_%s.npy' % dataSetChoice
+
+""" ---------------------------------- 模型仓库 ------------------------------------ """
+model_link = ModelSetLink + '/model_%s_' + dataSetChoice
+
+""" ---------------------------------- 常数设置 ------------------------------------ """
+LIMIT_EXIST_TIMES = 5       # userID, itemID 至少出现 LIMIT_EXIST_TIMES 次的原始数据被保留
+LEN_SEQUENCE_LEN = 3        # 总序列长度
+""" ------------------------------------------------------------------------------ """
+
+
+if __name__ == '__main__':
+    # 获得当前工作目录
+    print(os.getcwd())
+
+    # 路径测试
+    with open(orgData_reviews_link[3:], 'r') as f:
+        # print(f.readline())
+        f.close()
 
 """ ---------------------------------- 生数据仓库 ------------------------------------ """
 # ------------- 相关常数 --------------
@@ -32,36 +61,3 @@ filter_user_link = RawSetLink + '/filter_user_%s_After_%s' % (strTemp, STR_TIME_
 sample_afterFilter_link = RawSetLink + '/sample_%s_afterFilter_%s_After_%s' % ('%s', strTemp, STR_TIME_LIMIT)    # 下采样
 tempTable_link = RawSetLink + '/tempTable'                                                              # 临时表
 KCore_link = RawSetLink + '/KCore_%s_%s_After_%s' % ('%d', strTemp, STR_TIME_LIMIT)                     # K-Core表
-
-
-""" ---------------------------------- 原始数据仓库 ------------------------------------ """
-# 原始数据
-# orgData_reviews_link = OrgSetLink + '/reviews_%s.json.gz' % dataSetChoice         # 原始数据(review)
-# orgData_reviews_link = OrgSetLink + '/ratings.dat'
-orgData_reviews_link = OrgSetLink + '/Amazon'
-orgData_reviewsParse_link = OrgSetLink + '/reviewsParse_%s' % dataSetChoice         # 解析后的原始数据(review)
-orgData_meta_link = OrgSetLink + '/meta_%s.json.gz' % dataSetChoice                 # 原始数据(metadata)
-
-""" ---------------------------------- 清洗数据仓库 ------------------------------------ """
-# 生成后的数据 [userAction, IIG, userMapSet, itemMapSet, count_user, count_item]
-mainData_link = CleanSetLink + '/mainData_%s.npy' % dataSetChoice
-TVJ_link = CleanSetLink + '/TVJ_%s.npy' % dataSetChoice
-
-""" ---------------------------------- 模型仓库 ------------------------------------ """
-model_link = ModelSetLink + '/model_%s_' + dataSetChoice
-
-
-""" ---------------------------------- 常数设置 ------------------------------------ """
-LIMIT_EXIST_TIMES = 5       # userID, itemID 至少出现 LIMIT_EXIST_TIMES 次的原始数据被保留
-LEN_SEQUENCE_LEN = 3        # 总序列长度
-""" ------------------------------------------------------------------------------ """
-
-
-if __name__ == '__main__':
-    # 获得当前工作目录
-    print(os.getcwd())
-
-    # 路径测试
-    with open(orgData_reviews_link[3:], 'r') as f:
-        # print(f.readline())
-        f.close()

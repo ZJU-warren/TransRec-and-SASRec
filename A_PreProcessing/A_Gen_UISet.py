@@ -12,7 +12,7 @@ def Handle():
     with open(DLSet.orgData_reviewsParse_link, 'w') as f:
         with open(DLSet.orgData_reviews_link, 'r') as fData:
             dataSet = fData.readlines()
-            print(len(dataSet))
+            print('total reviews: ', len(dataSet))
         for aLine in dataSet:
             each = aLine[:-1].split(',')
 
@@ -83,12 +83,12 @@ def Fliter(count_U, count_I):
         userAction[userID].sort(key=lambda x: x[0])
     # print(userAction[0])
 
+    print('total items:', count_item)
+    print('total users:', count_user)
     return userMapSet, itemMapSet, userAction, count_user, count_item
 
 
 if __name__ == '__main__':
     count_U, count_I = Handle()
     userMapSet, itemMapSet, userAction, count_user, count_item = Fliter(count_U, count_I)
-    print(count_item)
-    print(count_user)
-    # print(userAction)
+

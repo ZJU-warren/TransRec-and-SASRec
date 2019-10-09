@@ -124,34 +124,19 @@ def Main():
     UT, UV, UJ, count_user, count_item = GetData()
     # 计算后代和关系数目
     itemSuccessor, numRel = Gen_ItemSuccessor(UT, count_item)
-    # model = TransRec(UT, UV, UJ, count_user, count_item, numRel)
-    # model.Train()
+    model = TransRec(UT, UV, UJ, count_user, count_item, numRel)
+    model.Train()
 
-    # StoreObj(model, DLSet.model_link % 'TransRec')
+    StoreObj(model, DLSet.model_link % 'TransRec')
     model = LoadObj(DLSet.model_link % 'TransRec')
 
-    auc_T, auc_V, aucJ = AUC.Measure(model, UT, UV, UJ, count_item)
-    print(auc_T, auc_V, aucJ)
-    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)
-    print(hr_T, hr_V, hr_J)
-    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, subN=-1)
-    print(ndcg_T, ndcg_V, ndcg_J)
-    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1)
-    print(hr_T, hr_V, hr_J)
-    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1)
-    print(ndcg_T, ndcg_V, ndcg_J)
+    auc_T, auc_V, auc_J = AUC.Measure(model, UT, UV, UJ, count_item)    ;print('AUC:', auc_J)
+    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('HR@50:', hr_J)
+    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('HR@10:', hr_J)
+    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('NDCG@50:', ndcg_J)
+    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('NDCG@10:', ndcg_J)
 
 
 if __name__ == '__main__':
     Main()
 
-
-
-"""
-AUC = 0.7848804644808767 0.6194296448087456 0.582400956284155
-HR@50 = 0.2346311475409836 0.12636612021857924 0.10280054644808743
-NDCG@50 = 0.06910054403711564 0.03791673829122832 0.031436725367869664
-HR@10 = 
-NDCG@10 = 
-
-"""
