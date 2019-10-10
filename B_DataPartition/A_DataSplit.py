@@ -5,8 +5,8 @@ import matplotlib
 matplotlib.use('Agg')
 
 # 取出数据
-def GetData():
-    dataset = np.load(DLSet.mainData_link, allow_pickle=True)
+def GetData(dataSetChoice):
+    dataset = np.load(DLSet.mainData_link % dataSetChoice, allow_pickle=True)
     [userAction, IIG, userMapSet, itemMapSet, count_user, count_item] = dataset
     return userAction, IIG, userMapSet, itemMapSet, count_user, count_item
 
@@ -41,9 +41,9 @@ def Split_TVJ(uA):
 
 
 # 主函数
-def Main():
+def Main(dataSetChoice):
     # 取出数据
-    userAction, IIG, userMapSet, itemMapSet, count_user, count_item = GetData()
+    userAction, IIG, userMapSet, itemMapSet, count_user, count_item = GetData(dataSetChoice)
 
     # 保留 <user: [items]>
     Keep_UI(userAction)
@@ -53,8 +53,9 @@ def Main():
 
     # 持久化数据
     genDataSet = [UT, UV, UJ, count_user, count_item]
-    np.save(DLSet.TVJ_link, genDataSet)
+    np.save(DLSet.TVJ_link % dataSetChoice, genDataSet)
 
 
 if __name__ == '__main__':
-    Main()
+    dataSetChoice = DLSet.dataSet[0]
+    Main(dataSetChoice)

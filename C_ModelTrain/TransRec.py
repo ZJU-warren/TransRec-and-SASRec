@@ -7,8 +7,8 @@ import Z_Measures.HitRatio as HR
 import Z_Measures.NDCG as NDCG
 
 # 取出数据
-def GetData():
-    dataset = np.load(DLSet.TVJ_link, allow_pickle=True)
+def GetData(dataSetChoice):
+    dataset = np.load(DLSet.TVJ_link % dataSetChoice, allow_pickle=True)
     [UT, UV, UJ, count_user, count_item] = dataset
     return UT, UV, UJ, count_user, count_item
 
@@ -119,16 +119,16 @@ class TransRec:
 
 
 # 主函数
-def Main():
+def Main(dataSetChoice):
     # 加载数据
-    UT, UV, UJ, count_user, count_item = GetData()
+    UT, UV, UJ, count_user, count_item = GetData(dataSetChoice)
     # 计算后代和关系数目
     itemSuccessor, numRel = Gen_ItemSuccessor(UT, count_item)
     model = TransRec(UT, UV, UJ, count_user, count_item, numRel)
     model.Train()
 
-    StoreObj(model, DLSet.model_link % 'TransRec')
-    model = LoadObj(DLSet.model_link % 'TransRec')
+    StoreObj(model, DLSet.model_link % ('TransRec', dataSetChoice))
+    model = LoadObj(DLSet.model_link % ('TransRec', dataSetChoice))
 
     auc_T, auc_V, auc_J = AUC.Measure(model, UT, UV, UJ, count_item)    ;print('AUC:', auc_J)
     hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('HR@50', hr_J)
@@ -138,5 +138,6 @@ def Main():
 
 
 if __name__ == '__main__':
-    Main()
+    dataSetChoice = DLSet.dataSet[0]
+    Main(dataSetChoice)
 

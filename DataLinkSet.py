@@ -14,17 +14,17 @@ ModelSetLink = DataSetLink + '/ModelSet'
 
 """ ---------------------------------- 原始数据仓库 ------------------------------------ """
 # 原始数据
-orgData_reviews_link = RawSetLink + '/Raw_' + dataSetChoice                         # 原始数据(review)
-orgData_reviewsParse_link = OrgSetLink + '/reviewsParse_%s' % dataSetChoice         # 解析后的原始数据(review)
-orgData_meta_link = OrgSetLink + '/meta_%s.json.gz' % dataSetChoice                 # 原始数据(metadata)
+orgData_reviews_link = RawSetLink + '/Raw_%s'                           # 原始数据(review)
+orgData_reviewsParse_link = OrgSetLink + '/reviewsParse_%s'             # 解析后的原始数据(review)
+orgData_meta_link = OrgSetLink + '/meta_%s.json.gz'                     # 原始数据(metadata)
 
 """ ---------------------------------- 清洗数据仓库 ------------------------------------ """
 # 生成后的数据 [userAction, IIG, userMapSet, itemMapSet, count_user, count_item]
-mainData_link = CleanSetLink + '/mainData_%s.npy' % dataSetChoice
-TVJ_link = CleanSetLink + '/TVJ_%s.npy' % dataSetChoice
+mainData_link = CleanSetLink + '/mainData_%s.npy'
+TVJ_link = CleanSetLink + '/TVJ_%s.npy'
 
 """ ---------------------------------- 模型仓库 ------------------------------------ """
-model_link = ModelSetLink + '/model_%s_' + dataSetChoice
+model_link = ModelSetLink + '/model_%s_%s'
 
 """ ---------------------------------- 常数设置 ------------------------------------ """
 LIMIT_EXIST_TIMES = 5       # userID, itemID 至少出现 LIMIT_EXIST_TIMES 次的原始数据被保留

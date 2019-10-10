@@ -42,14 +42,15 @@ def GenRelItemSet(itemMapSet):
     return IIG
 
 
-def Main():
-    count_U, count_I = AA.Handle()
-    userMapSet, itemMapSet, userAction, count_user, count_item = AA.Fliter(count_U, count_I)
+def Main(dataSetChoice):
+    count_U, count_I = AA.Handle(dataSetChoice)
+    userMapSet, itemMapSet, userAction, count_user, count_item = AA.Fliter(count_U, count_I, dataSetChoice)
     # IIG = GenRelItemSet(itemMapSet)       # 如果需要相关数据
     IIG = {}
     genDataSet = [userAction, IIG, userMapSet, itemMapSet, count_user, count_item]
-    np.save(DLSet.mainData_link, genDataSet)
+    np.save(DLSet.mainData_link % dataSetChoice, genDataSet)
 
 
 if __name__ == '__main__':
-    Main()
+    dataSetChoice = DLSet.dataSet[0]
+    Main(dataSetChoice)

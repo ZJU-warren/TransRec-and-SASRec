@@ -23,9 +23,27 @@
       <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_ModelTrain/SuccRec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_ModelTrain/Z_AppendixTool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/AUC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/HitRatio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/NDCG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B_DataPartition/A_DataSplit.py" beforeDir="false" afterPath="$PROJECT_DIR$/B_DataPartition/A_DataSplit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataLinkSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataLinkSet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redirection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -48,11 +66,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            <state relative-caret-position="63">
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="64" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C_ModelTrain/Z_AppendixTool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2247">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B_DataPartition/A_DataSplit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1239">
+              <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -114,14 +159,14 @@
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" />
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_MovieLens.py" />
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawLastFM.py" />
+        <option value="$PROJECT_DIR$/Z_Measures/AUC.py" />
+        <option value="$PROJECT_DIR$/Redirection.py" />
+        <option value="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py" />
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" />
         <option value="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" />
-        <option value="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py" />
-        <option value="$PROJECT_DIR$/Z_Measures/AUC.py" />
-        <option value="$PROJECT_DIR$/DataLinkSet.py" />
         <option value="$PROJECT_DIR$/B_DataPartition/A_DataSplit.py" />
+        <option value="$PROJECT_DIR$/DataLinkSet.py" />
         <option value="$PROJECT_DIR$/C_ModelTrain/TransRec.py" />
-        <option value="$PROJECT_DIR$/Redirection.py" />
         <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
@@ -150,7 +195,22 @@
             <path>
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="A_PreProcessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="B_DataPartition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="C_ModelTrain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Y_DataCleanerKit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +258,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Main">
-    <configuration name="A_DataSplit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="A_Gen_UISet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,12 +266,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B_DataPartition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A_PreProcessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_DataPartition/A_DataSplit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="B_GenRawYooChoose" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Y_DataCleanerKit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,35 +368,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TransRec" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/C_ModelTrain" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C_ModelTrain/TransRec.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.B_GenRawYooChoose" />
+        <item itemvalue="Python.A_Gen_UISet" />
         <item itemvalue="Python.Redirection" />
         <item itemvalue="Python.DataLinkSet" />
-        <item itemvalue="Python.TransRec" />
-        <item itemvalue="Python.A_DataSplit" />
       </list>
     </recent_temporary>
   </component>
@@ -342,12 +402,13 @@
       <workItem from="1570506259090" duration="727000" />
       <workItem from="1570512611865" duration="2256000" />
       <workItem from="1570595142893" duration="266000" />
-      <workItem from="1570595440532" duration="18045000" />
+      <workItem from="1570595440532" duration="18210000" />
+      <workItem from="1570685196518" duration="1832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106825000" />
+    <option name="totallyTimeSpent" value="108822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,7 +423,32 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16546762" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16712783" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29589632" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29805616" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.4488102" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16712783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -377,31 +463,6 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29805616" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32937366" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.4488102" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16546762" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35205182" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.59827214" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,17 +486,17 @@
     <SUITE FILE_PATH="coverage/Project$SuccRec.coverage" NAME="SuccRec Coverage Results" MODIFIED="1569585253993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_ModelTrain" />
     <SUITE FILE_PATH="coverage/Project$DataLinkSet.coverage" NAME="DataLinkSet Coverage Results" MODIFIED="1570609794051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project$A_Gen_UISet_AmazonRating.coverage" NAME="A_Gen_UISet_AmazonRating Coverage Results" MODIFIED="1569743484290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
-    <SUITE FILE_PATH="coverage/Project$B_GenRawYooChoose.coverage" NAME="B_GenRawYooChoose Coverage Results" MODIFIED="1570598915001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
+    <SUITE FILE_PATH="coverage/Project$B_GenRawYooChoose.coverage" NAME="B_GenRawYooChoose Coverage Results" MODIFIED="1570686294536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
     <SUITE FILE_PATH="coverage/Project$A_Gen_UISet_MoiveLens.coverage" NAME="A_Gen_UISet_MoiveLens Coverage Results" MODIFIED="1569635966625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
     <SUITE FILE_PATH="coverage/Project$A_ChooseSample_Google.coverage" NAME="A_ChooseSample_Google Coverage Results" MODIFIED="1569921646887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
     <SUITE FILE_PATH="coverage/Project$A_DataSplit.coverage" NAME="A_DataSplit Coverage Results" MODIFIED="1570599561872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_DataPartition" />
-    <SUITE FILE_PATH="coverage/Project$A_Gen_UISet.coverage" NAME="A_Gen_UISet Coverage Results" MODIFIED="1570599325314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
     <SUITE FILE_PATH="coverage/Project$TransRec.coverage" NAME="TransRec Coverage Results" MODIFIED="1570599650173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_ModelTrain" />
+    <SUITE FILE_PATH="coverage/Project$A_Gen_UISet.coverage" NAME="A_Gen_UISet Coverage Results" MODIFIED="1570686070226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
     <SUITE FILE_PATH="coverage/Project$B_Gen_RelItemSet__1_.coverage" NAME="B_Gen_RelItemSet (1) Coverage Results" MODIFIED="1569507515793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
     <SUITE FILE_PATH="coverage/Project$A_ChooseSample_Amazon.coverage" NAME="A_ChooseSample_Amazon Coverage Results" MODIFIED="1570513440740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
     <SUITE FILE_PATH="coverage/Project$preProcess_tools.coverage" NAME="preProcess_tools Coverage Results" MODIFIED="1569406649772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_DataPreProcessing" />
     <SUITE FILE_PATH="coverage/Project$HitRatio.coverage" NAME="HitRatio Coverage Results" MODIFIED="1569585194465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_Measures" />
-    <SUITE FILE_PATH="coverage/Project$Main.coverage" NAME="Main Coverage Results" MODIFIED="1570619731392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project$Main.coverage" NAME="Main Coverage Results" MODIFIED="1570687061250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/A_DataPreProcessing/testParse" />
@@ -451,13 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="979" selection-start-line="979" selection-end-line="979" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C_ModelTrain/Z_AppendixTool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -546,16 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#44#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZZ_Trash/A_Gen_UISet_Amazon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -619,12 +663,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Redirection.py" />
+    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="70" lean-forward="true" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+          <folding>
+            <element signature="e#31#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="504">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <element signature="e#174#1083#0" />
             <element signature="e#342#1067#0" />
             <element signature="e#729#938#0" />
             <element signature="e#773#938#0" />
@@ -633,75 +694,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py">
+    <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#395#473#0" />
-            <element signature="e#770#806#0" />
-            <element signature="e#990#1196#0" />
-            <element signature="e#1038#1082#0" />
-            <element signature="e#1101#1166#0" />
-            <element signature="e#1244#2444#0" />
-            <element signature="e#1561#2156#0" />
-            <element signature="e#2478#2595#0" />
-          </folding>
+        <state relative-caret-position="-2247">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_ModelTrain/Z_AppendixTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B_DataPartition/A_DataSplit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="121" column="11" lean-forward="true" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding>
-            <element signature="e#245#394#0" />
-            <element signature="e#427#4219#0" />
-            <element signature="e#635#992#0" />
-            <element signature="e#1047#1165#0" />
-            <element signature="e#1230#1333#0" />
-            <element signature="e#1383#3112#0" />
-            <element signature="e#1446#3087#0" />
-            <element signature="e#3154#4219#0" />
-            <element signature="e#3154#3279#1" />
-            <element signature="e#3349#4087#0" />
-            <element signature="e#3796#4087#1" />
-            <element signature="e#4096#4219#1" />
-          </folding>
+        <state relative-caret-position="1239">
+          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="63">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="64" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Redirection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

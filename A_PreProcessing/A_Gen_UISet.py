@@ -5,21 +5,22 @@ from collections import defaultdict
 
 
 # 将原始数据处理为csv表, 并进行频率统计
-def Handle():
+def Handle(dataSetChoice):
     count_U = defaultdict(lambda: 0)     # 统计用户出现次数
     count_I = defaultdict(lambda: 0)     # 统计物品出现次数
 
-    with open(DLSet.orgData_reviewsParse_link, 'w') as f:
-        with open(DLSet.orgData_reviews_link, 'r') as fData:
+    with open(DLSet.orgData_reviewsParse_link % dataSetChoice, 'w') as f:
+        with open(DLSet.orgData_reviews_link % dataSetChoice, 'r') as fData:
             dataSet = fData.readlines()
             print('total reviews: ', len(dataSet))
+        flag = 0
         for aLine in dataSet:
             each = aLine[:-1].split(',')
-
             # 存储记录
-            f.write(" ".join([each[0], each[1],
-                              str(each[2]), str(each[3])]) + '\n')
-
+            if len(each) == 4:
+                f.write(" ".join([each[0], each[1], each[2], each[3]]) + '\n')
+            else:
+                print(each)
             # 属性提取
             userID = each[0]
             itemID = each[1]
@@ -46,7 +47,7 @@ def MapID(keyID, keyMapSet, count):
 
 
 # 按照数量进行过滤
-def Fliter(count_U, count_I):
+def Fliter(count_U, count_I, dataSetChoice):
     userMapSet = {}     # 将用户映射到 [0, 1, ..] 区间中
     itemMapSet = {}     # 将物品映射到 [0, 1, ..] 区间中
 
@@ -54,7 +55,7 @@ def Fliter(count_U, count_I):
     count_user = 0
     count_item = 0
 
-    with open(DLSet.orgData_reviews_link, 'r') as fData:
+    with open(DLSet.orgData_reviews_link % dataSetChoice, 'r') as fData:
         dataSet = fData.readlines()
     for aLine in dataSet:
         each = aLine[:-1].split(',')
@@ -89,6 +90,7 @@ def Fliter(count_U, count_I):
 
 
 if __name__ == '__main__':
-    count_U, count_I = Handle()
-    userMapSet, itemMapSet, userAction, count_user, count_item = Fliter(count_U, count_I)
+    dataSetChoice = DLSet.dataSet[0]
+    count_U, count_I = Handle(dataSetChoice)
+    userMapSet, itemMapSet, userAction, count_user, count_item = Fliter(count_U, count_I, dataSetChoice)
 

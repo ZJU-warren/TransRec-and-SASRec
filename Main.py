@@ -9,12 +9,11 @@ import os
 
 def Main():
     for each in DLSet.dataSet:
-        DLSet.dataSetChoice = each
         print('-----------------------------------')
-        print(DLSet.dataSetChoice)
-        AB.Main()
-        BA.Main()
-        TransRec.Main()
+        print(each)
+        # AB.Main(each)
+        # BA.Main(each)
+        TransRec.Main(each)
 
 
 if __name__ == '__main__':
