@@ -8,13 +8,18 @@ import os
 
 
 def Main():
-    for each in DLSet.dataSet:
+    for each in ['MovieLens', 'YooChoose', 'Google']:
         print('-----------------------------------')
         print(each)
-        # AB.Main(each)
-        # BA.Main(each)
+        AB.Main(each)
+        print('*** end AB')
+        BA.Main(each)
+        print('*** end BA')
         TransRec.Main(each)
 
 
 if __name__ == '__main__':
     Main()
+
+
+# scp -r wr@10.214.192.11:/wr/home/Project/ Project/

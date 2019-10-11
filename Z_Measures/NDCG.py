@@ -31,8 +31,8 @@ def listSort(li, isRverse=True):
 # 指标评估
 def Measure(model, UT, UV, UJ, count_item, limit=50, subN=200):
     # 定义评价指标
-    ndcgAgent_T = MyNDCG(limit)
-    ndcgAgent_V = MyNDCG(limit)
+    # ndcgAgent_T = MyNDCG(limit)
+    # ndcgAgent_V = MyNDCG(limit)
     ndcgAgent_J = MyNDCG(limit)
 
     for user in UJ:
@@ -40,8 +40,8 @@ def Measure(model, UT, UV, UJ, count_item, limit=50, subN=200):
             continue
 
         # 负样本评分集合初始化
-        subPSet_T = []
-        subPSet_V = []
+        # subPSet_T = []
+        # subPSet_V = []
         subPSet_J = []
 
         # 利用subN个物品作为评分依据
@@ -58,21 +58,21 @@ def Measure(model, UT, UV, UJ, count_item, limit=50, subN=200):
             itemSet = [i for i in range(count_item)]
 
         for each in itemSet:
-            subPSet_T.append((model.TransPredict(user, UT[user][-2], each), each))
-            subPSet_V.append((model.TransPredict(user, UV[user][0], each), each))
+            # subPSet_T.append((model.TransPredict(user, UT[user][-2], each), each))
+            # subPSet_V.append((model.TransPredict(user, UV[user][0], each), each))
             subPSet_J.append((model.TransPredict(user, UJ[user][0], each), each))
 
         # 降序排列可能性
-        subPSet_T = listSort(subPSet_T)
-        subPSet_V = listSort(subPSet_V)
+        # subPSet_T = listSort(subPSet_T)
+        # subPSet_V = listSort(subPSet_V)
         subPSet_J = listSort(subPSet_J)
 
         # 更新
-        ndcgAgent_T.Update(UT[user][-1], subPSet_T)
-        ndcgAgent_V.Update(UV[user][1], subPSet_V)
+        # ndcgAgent_T.Update(UT[user][-1], subPSet_T)
+        # ndcgAgent_V.Update(UV[user][1], subPSet_V)
         ndcgAgent_J.Update(UJ[user][1], subPSet_J)
 
-    return ndcgAgent_T.GetHR(), ndcgAgent_V.GetHR(), ndcgAgent_J.GetHR()
+    return ndcgAgent_J.GetHR()
 
 
 if __name__ == '__main__':

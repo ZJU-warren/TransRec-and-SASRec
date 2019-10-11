@@ -61,3 +61,5 @@ filter_user_link = RawSetLink + '/filter_user_%s_After_%s' % (strTemp, STR_TIME_
 sample_afterFilter_link = RawSetLink + '/sample_%s_afterFilter_%s_After_%s' % ('%s', strTemp, STR_TIME_LIMIT)    # 下采样
 tempTable_link = RawSetLink + '/tempTable'                                                              # 临时表
 KCore_link = RawSetLink + '/KCore_%s_%s_After_%s' % ('%d', strTemp, STR_TIME_LIMIT)                     # K-Core表
+mapItemID_SAS_link = RawSetLink + '/mapItemID_SAS_%s'        # SASRec 需要映射itemID从0开始
+data_SAS_link = RawSetLink + '/data_SAS_%s.txt'                  # 映射后的结果

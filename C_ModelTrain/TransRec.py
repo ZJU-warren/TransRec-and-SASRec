@@ -124,17 +124,21 @@ def Main(dataSetChoice):
     UT, UV, UJ, count_user, count_item = GetData(dataSetChoice)
     # 计算后代和关系数目
     itemSuccessor, numRel = Gen_ItemSuccessor(UT, count_item)
+
+    # 训练模型
     model = TransRec(UT, UV, UJ, count_user, count_item, numRel)
     model.Train()
-
     StoreObj(model, DLSet.model_link % ('TransRec', dataSetChoice))
+
+    # 读取模型
     model = LoadObj(DLSet.model_link % ('TransRec', dataSetChoice))
 
-    auc_T, auc_V, auc_J = AUC.Measure(model, UT, UV, UJ, count_item)    ;print('AUC:', auc_J)
-    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('HR@50', hr_J)
-    hr_T, hr_V, hr_J = HR.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('HR@10', hr_J)
-    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, subN=-1)   ;print('NDCG@50', ndcg_J)
-    ndcg_T, ndcg_V, ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('NDCG@10', ndcg_J)
+    # 评估
+    auc_J = AUC.Measure(model, UT, UV, UJ, count_item)                      ;print('AUC:', auc_J)
+    hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)               ;print('HR@50', hr_J)
+    hr_J = HR.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1)     ;print('HR@10', hr_J)
+    ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, subN=-1)           ;print('NDCG@50', ndcg_J)
+    ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('NDCG@10', ndcg_J)
 
 
 if __name__ == '__main__':
