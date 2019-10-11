@@ -25,6 +25,8 @@
       <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +40,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="189">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#1586#1730#0" />
+                <element signature="e#1691#1730#0" />
+                <element signature="e#1818#1853#0" />
+                <element signature="e#2379#2439#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +64,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="145" column="23" lean-forward="true" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+            <state relative-caret-position="244">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="e#258#423#0" />
+                <element signature="e#665#1022#0" />
+                <element signature="e#1077#1195#0" />
+                <element signature="e#1260#1363#0" />
+                <element signature="e#1413#3142#0" />
+                <element signature="e#1476#3117#0" />
+                <element signature="e#3184#4249#0" />
+                <element signature="e#3184#3309#1" />
+                <element signature="e#3379#4117#0" />
+                <element signature="e#3826#4117#1" />
+                <element signature="e#4126#4249#1" />
+                <element signature="e#4287#5190#0" />
+                <element signature="e#5224#5280#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -110,16 +151,16 @@
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawLastFM.py" />
         <option value="$PROJECT_DIR$/Redirection.py" />
         <option value="$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py" />
-        <option value="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" />
         <option value="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" />
         <option value="$PROJECT_DIR$/B_DataPartition/A_DataSplit.py" />
-        <option value="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" />
-        <option value="$PROJECT_DIR$/DataLinkSet.py" />
         <option value="$PROJECT_DIR$/Z_Measures/NDCG.py" />
         <option value="$PROJECT_DIR$/Z_Measures/AUC.py" />
         <option value="$PROJECT_DIR$/Z_Measures/HitRatio.py" />
-        <option value="$PROJECT_DIR$/C_ModelTrain/TransRec.py" />
+        <option value="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" />
+        <option value="$PROJECT_DIR$/DataLinkSet.py" />
+        <option value="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/C_ModelTrain/TransRec.py" />
       </list>
     </option>
   </component>
@@ -147,7 +188,12 @@
             <path>
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="C_ModelTrain" type="462c0819:PsiDirectoryNode" />
+              <item name="Y_DataCleanerKit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Z_Measures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.C_GenSASData">
     <configuration name="A_Gen_UISet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,12 +382,12 @@
       <workItem from="1570595142893" duration="266000" />
       <workItem from="1570595440532" duration="18210000" />
       <workItem from="1570685196518" duration="7867000" />
-      <workItem from="1570760957417" duration="5074000" />
+      <workItem from="1570760957417" duration="12505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119931000" />
+    <option name="totallyTimeSpent" value="127362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,14 +400,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16878805" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16878805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3401728" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.63066953" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +415,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.43412527" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43412527" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -419,7 +464,7 @@
     <SUITE FILE_PATH="coverage/Project$SuccRec.coverage" NAME="SuccRec Coverage Results" MODIFIED="1569585253993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_ModelTrain" />
     <SUITE FILE_PATH="coverage/Project$DataLinkSet.coverage" NAME="DataLinkSet Coverage Results" MODIFIED="1570609794051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Project$A_Gen_UISet_AmazonRating.coverage" NAME="A_Gen_UISet_AmazonRating Coverage Results" MODIFIED="1569743484290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
-    <SUITE FILE_PATH="coverage/Project$B_GenRawYooChoose.coverage" NAME="B_GenRawYooChoose Coverage Results" MODIFIED="1570686294536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
+    <SUITE FILE_PATH="coverage/Project$B_GenRawYooChoose.coverage" NAME="B_GenRawYooChoose Coverage Results" MODIFIED="1570768910068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
     <SUITE FILE_PATH="coverage/Project$A_Gen_UISet_MoiveLens.coverage" NAME="A_Gen_UISet_MoiveLens Coverage Results" MODIFIED="1569635966625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_PreProcessing" />
     <SUITE FILE_PATH="coverage/Project$A_ChooseSample_Google.coverage" NAME="A_ChooseSample_Google Coverage Results" MODIFIED="1569921646887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
     <SUITE FILE_PATH="coverage/Project$A_DataSplit.coverage" NAME="A_DataSplit Coverage Results" MODIFIED="1570599561872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_DataPartition" />
@@ -429,8 +474,8 @@
     <SUITE FILE_PATH="coverage/Project$A_ChooseSample_Amazon.coverage" NAME="A_ChooseSample_Amazon Coverage Results" MODIFIED="1570513440740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
     <SUITE FILE_PATH="coverage/Project$preProcess_tools.coverage" NAME="preProcess_tools Coverage Results" MODIFIED="1569406649772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_DataPreProcessing" />
     <SUITE FILE_PATH="coverage/Project$HitRatio.coverage" NAME="HitRatio Coverage Results" MODIFIED="1569585194465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Z_Measures" />
-    <SUITE FILE_PATH="coverage/Project$C_GenSASData.coverage" NAME="C_GenSASData Coverage Results" MODIFIED="1570699290747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
-    <SUITE FILE_PATH="coverage/Project$Main.coverage" NAME="Main Coverage Results" MODIFIED="1570764983178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project$C_GenSASData.coverage" NAME="C_GenSASData Coverage Results" MODIFIED="1570771443986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Y_DataCleanerKit" />
+    <SUITE FILE_PATH="coverage/Project$Main.coverage" NAME="Main Coverage Results" MODIFIED="1570773877808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/A_DataPreProcessing/testParse" />
@@ -554,23 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="e#440#518#0" />
-            <element signature="e#578#993#0" />
-            <element signature="e#871#907#0" />
-            <element signature="e#1091#1297#0" />
-            <element signature="e#1139#1183#0" />
-            <element signature="e#1202#1267#0" />
-            <element signature="e#1360#2576#0" />
-            <element signature="e#1693#2288#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252">
@@ -578,16 +606,6 @@
           <folding>
             <element signature="e#0#148#1" />
             <element signature="e#149#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#29#1" />
           </folding>
         </state>
       </provider>
@@ -617,16 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#31#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Z_Measures/NDCG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -648,27 +656,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#176#1022#0" />
+            <element signature="e#359#993#0" />
+            <element signature="e#440#518#0" />
+            <element signature="e#578#993#0" />
+            <element signature="e#871#907#0" />
+            <element signature="e#1091#1297#0" />
+            <element signature="e#1139#1183#0" />
+            <element signature="e#1202#1267#0" />
+            <element signature="e#1360#2576#0" />
+            <element signature="e#1693#2288#0" />
+            <element signature="e#2610#2792#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#29#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="210">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#1586#1730#0" />
+            <element signature="e#1691#1730#0" />
+            <element signature="e#1818#1853#0" />
+            <element signature="e#2379#2439#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="189">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="145" column="23" lean-forward="true" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+        <state relative-caret-position="244">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#258#423#0" />
+            <element signature="e#665#1022#0" />
+            <element signature="e#1077#1195#0" />
+            <element signature="e#1260#1363#0" />
+            <element signature="e#1413#3142#0" />
+            <element signature="e#1476#3117#0" />
+            <element signature="e#3184#4249#0" />
+            <element signature="e#3184#3309#1" />
+            <element signature="e#3379#4117#0" />
+            <element signature="e#3826#4117#1" />
+            <element signature="e#4126#4249#1" />
+            <element signature="e#4287#5190#0" />
+            <element signature="e#5224#5280#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ class TransRec:
     reg_lam = 0.1
     K = 10
     learn_rate = 0.05
-    max_iter = 500
+    max_iter = 100
 
     # 数据相关和参数初始化
     def __init__(self, UT, UV, UJ, count_user, count_item, numRel):

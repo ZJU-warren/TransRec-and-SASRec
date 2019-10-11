@@ -30,20 +30,16 @@ def MapStr2Int(dfOrg, str, mapLink):
 
 
 def Main():
-    # for each in DLSet.dataSet:
-    each = 'MovieLens'
-    df = pd.read_csv(open(DLSet.orgData_reviews_link % each, 'r'),
-                     header=None, names=['user', 'item', 'score', 'timeStamp'])
+    for each in DLSet.dataSet:
+        # each = 'YooChoose'
+        df = pd.read_csv(open(DLSet.orgData_reviews_link % each, 'r'),
+                         header=None, names=['user', 'item', 'score', 'timeStamp'])
 
-    df = MapStr2Int(df, 'item', DLSet.mapItemID_SAS_link % each)
-    df = MapStr2Int(df, 'user', DLSet.mapItemID_SAS_link % each)
-    df = df.sort_values(by=['userID', 'timeStamp'])
+        df = MapStr2Int(df, 'item', DLSet.mapItemID_SAS_link % each)
+        df = MapStr2Int(df, 'user', DLSet.mapItemID_SAS_link % each)
+        df = df.sort_values(by=['userID', 'timeStamp'])
 
-    df['act'] = df.groupby(['userID']).cumcount() + 1
-    df = df.drop_duplicates(['userID'], keep='last')
-    print(df[['act']].describe())
-
-    df.to_csv(DLSet.data_SAS_link % each, sep=' ', header=None, index=False, columns=['userID', 'itemID'])
+        df.to_csv(DLSet.data_SAS_link % each, sep=' ', header=None, index=False, columns=['userID', 'itemID'])
 
 
 if __name__ == '__main__':

@@ -8,12 +8,12 @@ import os
 
 
 def Main():
-    for each in ['lastFM']:
+    for each in ['Google']:
         print('-----------------------------------')
         print(each)
-        # AB.Main(each)
+        AB.Main(each)
         print('*** end AB')
-        # BA.Main(each)
+        BA.Main(each)
         print('*** end BA')
         TransRec.Main(each)
 
