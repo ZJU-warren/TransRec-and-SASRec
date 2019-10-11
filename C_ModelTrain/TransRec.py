@@ -19,9 +19,9 @@ class TransRec:
     lam = 0.05
     bias_lam = 0.01
     reg_lam = 0.1
-    K = 300
+    K = 10
     learn_rate = 0.05
-    max_iter = 1
+    max_iter = 500
 
     # 数据相关和参数初始化
     def __init__(self, UT, UV, UJ, count_user, count_item, numRel):
@@ -135,10 +135,10 @@ def Main(dataSetChoice):
 
     # 评估
     auc_J = AUC.Measure(model, UT, UV, UJ, count_item)                      ;print('AUC:', auc_J)
-    hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)               ;print('HR@50', hr_J)
-    hr_J = HR.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1)     ;print('HR@10', hr_J)
-    ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, subN=-1)           ;print('NDCG@50', ndcg_J)
-    ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('NDCG@10', ndcg_J)
+    hr_J = HR.Measure(model, UT, UV, UJ, count_item, subN=-1)               ;print('HR@50:', hr_J)
+    hr_J = HR.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1)     ;print('HR@10:', hr_J)
+    ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, subN=-1)           ;print('NDCG@50:', ndcg_J)
+    ndcg_J = NDCG.Measure(model, UT, UV, UJ, count_item, limit=10, subN=-1) ;print('NDCG@10:', ndcg_J)
 
 
 if __name__ == '__main__':

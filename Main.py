@@ -8,12 +8,12 @@ import os
 
 
 def Main():
-    for each in ['MovieLens', 'YooChoose', 'Google']:
+    for each in ['lastFM']:
         print('-----------------------------------')
         print(each)
-        AB.Main(each)
+        # AB.Main(each)
         print('*** end AB')
-        BA.Main(each)
+        # BA.Main(each)
         print('*** end BA')
         TransRec.Main(each)
 
