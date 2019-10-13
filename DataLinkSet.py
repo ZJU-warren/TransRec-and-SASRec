@@ -5,12 +5,16 @@ dataSet = ['Amazon', 'Google', 'MovieLens', 'YooChoose', 'LastFM']
 dataSetChoice = dataSet[4]                          # 所选用的数据集合
 
 """ 文件夹地址 """
-DataSetLink = '../DataSet'                          # 数据仓库总地址
-# DataSetLink = '../../DataSet'                     # 数据仓库总地址
+# DataSetLink = '../DataSet'                          # 数据仓库总地址
+DataSetLink = '../../DataSet'                     # 数据仓库总地址
 RawSetLink = DataSetLink + '/RawSet'                # 原生数据仓库地址
 OrgSetLink = DataSetLink + '/OrgSet'                # 原始数据仓库地址
 CleanSetLink = DataSetLink + '/CleanSet'            # 清洗数据仓库地址
 ModelSetLink = DataSetLink + '/ModelSet'
+SASRecSetLink = DataSetLink + '/SASRecSet'            # 清洗数据仓库地址
+
+""" ---------------------------------- SASRec数据仓库 ------------------------------------ """
+SASData_link = SASRecSetLink + '/data_SAS_%s.txt'
 
 """ ---------------------------------- 原始数据仓库 ------------------------------------ """
 # 原始数据

@@ -17,16 +17,25 @@
       <change afterPath="$PROJECT_DIR$/../../PAT/GenFile.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../PathTest/Others/test2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../PathTest/Others/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/SASRec-master.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../SASRec-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_PreProcessing/B_Gen_RelItemSet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B_DataPartition/A_DataSplit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_ModelTrain/SuccRec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_ModelTrain/Z_AppendixTool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/AUC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/HitRatio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z_Measures/NDCG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataLinkSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataLinkSet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,56 +49,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="e#1586#1730#0" />
-                <element signature="e#1691#1730#0" />
-                <element signature="e#1818#1853#0" />
-                <element signature="e#2379#2439#0" />
-              </folding>
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
+        <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="168">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
-                <element signature="e#258#423#0" />
-                <element signature="e#665#1022#0" />
-                <element signature="e#1077#1195#0" />
-                <element signature="e#1260#1363#0" />
-                <element signature="e#1413#3142#0" />
-                <element signature="e#1476#3117#0" />
-                <element signature="e#3184#4249#0" />
-                <element signature="e#3184#3309#1" />
-                <element signature="e#3379#4117#0" />
-                <element signature="e#3826#4117#1" />
-                <element signature="e#4126#4249#1" />
-                <element signature="e#4287#5190#0" />
-                <element signature="e#5224#5280#0" />
+                <element signature="e#2747#3513#0" />
+                <element signature="e#2783#2969#1" />
+                <element signature="e#3582#4308#0" />
+                <element signature="e#3905#4229#0" />
+                <element signature="e#3971#4138#0" />
+                <element signature="e#4181#4229#0" />
+                <element signature="e#4359#4697#0" />
+                <element signature="e#4561#4697#0" />
+                <element signature="e#4593#4697#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -157,10 +138,10 @@
         <option value="$PROJECT_DIR$/Z_Measures/AUC.py" />
         <option value="$PROJECT_DIR$/Z_Measures/HitRatio.py" />
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" />
-        <option value="$PROJECT_DIR$/DataLinkSet.py" />
         <option value="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/C_ModelTrain/TransRec.py" />
+        <option value="$PROJECT_DIR$/DataLinkSet.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -178,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,16 +172,10 @@
               <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="Y_DataCleanerKit" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Z_Measures" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,11 +359,13 @@
       <workItem from="1570595440532" duration="18210000" />
       <workItem from="1570685196518" duration="7867000" />
       <workItem from="1570760957417" duration="12505000" />
+      <workItem from="1570789537292" duration="821000" />
+      <workItem from="1570884558207" duration="867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127362000" />
+    <option name="totallyTimeSpent" value="129050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +379,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16878805" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17210847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -415,7 +393,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43412527" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14578834" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -505,32 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#942#1739#0" />
-            <element signature="e#1192#1439#0" />
-            <element signature="e#1258#1348#0" />
-            <element signature="e#1391#1439#0" />
-            <element signature="e#1812#2691#0" />
-            <element signature="e#2240#2568#0" />
-            <element signature="e#2306#2477#0" />
-            <element signature="e#2520#2568#0" />
-            <element signature="e#2747#3513#0" />
-            <element signature="e#2783#2969#1" />
-            <element signature="e#3582#4308#0" />
-            <element signature="e#3905#4229#0" />
-            <element signature="e#3971#4138#0" />
-            <element signature="e#4181#4229#0" />
-            <element signature="e#4359#4697#0" />
-            <element signature="e#4561#4697#0" />
-            <element signature="e#4593#4697#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Z_Measures/HitRatio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1492">
-          <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A_PreProcessing/A_Gen_UISet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -686,17 +631,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py">
+    <entry file="file://$PROJECT_DIR$/Z_Measures/HitRatio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="525">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataLinkSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="105">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="e#1586#1730#0" />
             <element signature="e#1691#1730#0" />
@@ -706,17 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="267">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#258#423#0" />
             <element signature="e#665#1022#0" />
@@ -731,6 +676,31 @@
             <element signature="e#4126#4249#1" />
             <element signature="e#4287#5190#0" />
             <element signature="e#5224#5280#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#2747#3513#0" />
+            <element signature="e#2783#2969#1" />
+            <element signature="e#3582#4308#0" />
+            <element signature="e#3905#4229#0" />
+            <element signature="e#3971#4138#0" />
+            <element signature="e#4181#4229#0" />
+            <element signature="e#4359#4697#0" />
+            <element signature="e#4561#4697#0" />
+            <element signature="e#4593#4697#0" />
           </folding>
         </state>
       </provider>

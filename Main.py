@@ -8,7 +8,7 @@ import os
 
 
 def Main():
-    for each in ['Google']:
+    for each in ['']:
         print('-----------------------------------')
         print(each)
         AB.Main(each)
