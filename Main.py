@@ -8,7 +8,7 @@ import os
 
 
 def Main():
-    for each in ['']:
+    for each in ['Amazon', 'Google', 'YooChoose', 'MovieLens', 'LastFM']:
         print('-----------------------------------')
         print(each)
         AB.Main(each)

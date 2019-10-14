@@ -8,14 +8,10 @@ from tools import *
 
 def EX():
     cntU = 0
-    flag = 0
-    with open('../' + DLSet.RawSetLink + '/Raw_YooChoose', 'w') as wf:
-        with open('../' + DLSet.RawSetLink + '/yoochoose_click_dense.txt', 'r') as f:
+    with open(DLSet.RawSetLink + '/Raw_YooChoose', 'w') as wf:
+        with open(DLSet.RawSetLink + '/yoochoose_click_dense_20_no_repeat.txt', 'r') as f:
             while True:
                 line = f.readline()
-                flag = (flag + 1) % 7
-                if flag != 0:
-                    continue
                 if line:
                     cntU += 1
                     tim = 0

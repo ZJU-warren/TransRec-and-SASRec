@@ -155,21 +155,25 @@ def GiveMeTheNumber(dataLink):
 
 # 主函数
 def Main():
+
     # 按时间抽取数据
     print('------------------- 按时间抽取数据 --------------------')
     # SampleByTime(DLSet.rawRatings_link, DLSet.rawRatings_Sample_link, DLSet.TIME_LIMIT)
     # 处理出现次数低于阈值的物品
     print('------------------- 处理出现次数低于阈值的物品 --------------------')
     # Filter(DLSet.rawRatings_Sample_link, DLSet.filter_item_link, 'itemID', DLSet.LIMIT_EXIST_TIMES)
+    Filter(DLSet.tempLink, DLSet.filter_item_link, 'itemID', DLSet.ITEM_TIME_LIMIT)
 
     # 处理出现次数低于阈值的用户
     print('------------------- 处理出现次数低于阈值的用户 --------------------')
-    # Filter(DLSet.filter_item_link, DLSet.filter_user_link, 'userID', DLSet.USER_TIME_LIMIT)
+    Filter(DLSet.filter_item_link, DLSet.filter_user_link, 'userID', DLSet.USER_TIME_LIMIT)
+    GiveMeTheNumber(DLSet.filter_user_link)
 
     print('------------------- 取样 --------------------')
-    # frac = 0.3
-    # GenSample(DLSet.filter_user_link, DLSet.sample_afterFilter_link % str(frac), 'userID', frac)
-    # GiveMeTheNumber(DLSet.sample_afterFilter_link % str(frac))
+    frac = 0.3
+    GenSample(DLSet.filter_user_link, DLSet.sample_afterFilter_link % str(frac), 'userID', frac)
+    GiveMeTheNumber(DLSet.sample_afterFilter_link % str(frac))
+
 
 
 
@@ -180,7 +184,10 @@ def Main():
     
     # K = 10
     # GenKCore(DLSet.filter_user_link, DLSet.KCore_link % K, K)
-
-
+    """
+    for each in DLSet.dataSet:
+        print(each)
+        GiveMeTheNumber(DLSet.orgData_reviews_link % each)
+    """
 if __name__ == '__main__':
     Main()
