@@ -18,13 +18,8 @@
       <change afterPath="$PROJECT_DIR$/../../PAT/GenFile.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../PathTest/Others/test2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../PathTest/Others/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ZJU-AI_Introduction-Execises/Project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" beforeDir="false" afterPath="$PROJECT_DIR$/C_ModelTrain/TransRec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLinkSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataLinkSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/A_ChooseSample_Amazon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/B_GenRawYooChoose.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Y_DataCleanerKit/C_GenSASData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +53,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="231">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#258#423#0" />
@@ -201,11 +196,6 @@
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="C_ModelTrain" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ZJU-AI_Introduction-Execises/Project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -397,12 +387,12 @@
       <workItem from="1570789537292" duration="821000" />
       <workItem from="1570884558207" duration="867000" />
       <workItem from="1571016016022" duration="8070000" />
-      <workItem from="1571058311119" duration="1161000" />
+      <workItem from="1571058311119" duration="1863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138281000" />
+    <option name="totallyTimeSpent" value="138983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,14 +405,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17542888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35529158" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35529158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,7 +420,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24946004" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24946004" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -714,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C_ModelTrain/TransRec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="231">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#258#423#0" />
